@@ -1,0 +1,107 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes letterPopping {
+    0% {
+        opacity: 0.5;
+        transform: translateY(100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-10%);
+    }
+    80% {
+        transform: translateY(-5%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes letter{
+    0%{
+        transform: translateY(200%);
+        opacity: 0;
+    } 70% {
+        transform: translateY(-30%);
+        opacity: 0.5;
+    } 100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@for $i from 1 through 6 {
+    #area-p-#{$i} {
+        opacity: 0;
+        animation: letter 1s ease-out forwards !important;
+        animation-delay: #{$i * 0.5}s !important;
+    }
+}
+
+#area-atuacao-img{
+    animation: fadeIn 1s ease-in;
+}
+
+
+@keyframes fadeIn-sobre {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideLeft-sobre {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slideRight-sobre {
+    from { transform: translateX(100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes letterPopping-sobre {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+    #sobre-container{
+        animation: fadeIn-sobre 1s forwards;
+    }
+    #sobre-img{
+        animation: slideLeft-sobre 1s forwards;
+    }
+    #sobre-box-fluid {
+        animation: slideRight-sobre 1s forwards;
+        h2 {
+            animation: letterPopping-sobre 0.6s ease-out 0.2s forwards;
+        }
+        p {
+            animation: fadeIn-sobre 1s forwards;
+        }
+    }   
+    
+
+@keyframes fadeIn-dif {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0px);}
+}
+@keyframes imgDif {
+    from{opacity: 0; transform: scale(0.9);}
+    to{opacity: 1; transform: scale(1);}
+}
+#diferenciais-text-container{
+    p{
+        animation: fadeIn-dif 0.6s forwards;
+    }
+}
+#img{
+    img{
+        animation: imgDif 0.6s forwards;
+    }
+}
+    

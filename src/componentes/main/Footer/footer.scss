@@ -1,0 +1,120 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    background-color: #28036D;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+   
+    #lista{
+        display: flex;
+        width: 60%;
+        gap: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h4{
+            height: auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        ul{
+            height: auto;
+        }
+        li {
+            height: auto;
+            list-style: none;
+            padding: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            padding: 5px;
+        }
+        #sociais{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            gap: 10px;
+            #icons{
+                display: flex;
+                gap: 20px;
+                i {
+                    height: 30px;
+                    font-size: 26px;
+                    cursor: pointer;
+                    animation: transform 0.5s ease-in-out forwards;
+                }
+                i:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+
+
+    #header-logo {
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        height: 100%;
+        align-items: center;
+        #header-logo-img{
+            display: flex;
+            width: 50%;
+            height: 70%;
+            align-items: center;
+            img{
+                display: flex;
+                width: 100%;
+                height: 60%;
+            }
+        }
+        #header-logo-text{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            color: white;
+            justify-content: center;
+            padding-bottom: 10%;
+            h2{
+                height: auto;
+                font-family: 'Poppins', sans-serif;	
+                font-size: 32px;
+                font-weight: 800;
+            }
+            span{
+                position: absolute;
+                font-size: 9px;
+                font-weight: 100;
+                letter-spacing: 1px;
+                top: 48%;
+                left: 7px;
+                height: 0;
+            }
+        }
+        }
+}
+
+#desenvolvedor{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    span{
+        color: white;
+        height: auto;
+        font-weight: 100;
+        font-size: 9px;
+    }
+    a {
+        color: white;
+    }
+}
