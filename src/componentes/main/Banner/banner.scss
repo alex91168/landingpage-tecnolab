@@ -6,16 +6,15 @@
     position: relative;
     z-index: 0;
     height: 100vh;
-    //height: 900px;
     #main-text{
         display: flex;
         position: absolute;
         flex-direction: column;
         height: auto;
-        color: green;
         width: auto;
         top: 50%;
-        left: 5%;
+        //left: 8%;
+        padding-left: 10%;
         #text{
             position: relative;
             span{

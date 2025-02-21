@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 <div id='header-logo-text'>
                 <h2>Tecno Lab</h2>
-                <span>Conectando Inovação e Tecnologia para o Sucesso do Seu Negócio</span>
+                <p>Conectando Inovação e Tecnologia para o Sucesso do Seu Negócio</p>
                 </div>
             </div>
             <div id='lista'>
@@ -39,8 +39,8 @@ export default function Footer() {
             </div>
         </div>
         <div id='desenvolvedor'>
-            <span>© 2025 - Todos direitos reservados.</span>
-            <span>Criado por <a href="https://github.com/alex91168">Alex Batista</a></span>
+            <p>© 2025 - Todos direitos reservados.</p>
+            <p>Criado por <a href="https://github.com/alex91168">Alex Batista</a></p>
         </div>
     </>
   )

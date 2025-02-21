@@ -4,12 +4,10 @@ import './sobre.scss'
 export default function Sobre() {
   return (
     <div id='sobre-container' >
-      
-      <div id='sobre-img' >
-        <img src="/photo-1.png" alt="Sobre nós" />
-      </div>
-      
       <div id='sobre-box-fluid' >
+        <div id='sobre-img' >
+          <img src="/photo-1.png" alt="Sobre nós" />
+        </div>
         <h2 >Sobre Nós</h2>
         <p >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, culpa corrupti! 
@@ -18,7 +16,6 @@ export default function Sobre() {
           ipsam soluta corporis modi commodi ab.
         </p>
       </div>
-
     </div>
   );
 }
