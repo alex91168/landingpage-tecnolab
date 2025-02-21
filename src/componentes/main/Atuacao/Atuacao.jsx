@@ -14,7 +14,7 @@ export default function Atuacao() {
                 <p id='area-p-5'>• Automação de Processos: Implementamos ferramentas que automatizam e melhoram os fluxos de trabalho, economizando tempo e recursos.</p>
                 <p id='area-p-6'>• Infraestrutura de TI: Projetamos e gerenciamos a infraestrutura necessária para garantir a continuidade e o crescimento dos negócios.</p>
             </div>
-            <div id='area-atuacao-img'><img src="/photo-new.png" alt="" /></div>
+            <div id='area-atuacao-img'><img src="/photo-new.png" alt="Desenho tecnologia" /></div>
         </div>
     </div>
   )

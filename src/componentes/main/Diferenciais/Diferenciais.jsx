@@ -46,9 +46,9 @@ export default function Diferenciais() {
             </div>
             <div id='diferenciais-img'>
                 <div id='img'>
-                  {text === 0 && <img src="/photo-eq.png" alt="Equipe especializada" />}
-                  {text === 1 && <img src="/photo-sup.jpg" alt="Atendimento Personalizado" />}
-                  {text === 2 && <img src="/photo-co.jpg" alt="Compromisso com a Qualidade" />}
+                  {text === 0 && <img src="/photo-eq.png" alt="Imagem de especialistas" />}
+                  {text === 1 && <img src="/photo-sup.jpg" alt="Imagem de atendimento personalizado" />}
+                  {text === 2 && <img src="/photo-co.jpg" alt="Imagem de compromisso com a qualidade" />}
                 </div>
                 <div id="bullet">
                     <input type="checkbox" id="bullet-1" onChange={() => nextPage(0)} checked={text === 0}/>

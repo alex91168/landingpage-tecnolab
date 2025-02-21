@@ -10,7 +10,7 @@ export default function Footer() {
                     <img src="/logo-site.png" alt="logo" />
                 </div>
                 <div id='header-logo-text'>
-                <h2>Tecno Lab</h2>
+                <h3>Tecno Lab</h3>
                 <p>Conectando Inovação e Tecnologia para o Sucesso do Seu Negócio</p>
                 </div>
             </div>

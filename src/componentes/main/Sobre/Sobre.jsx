@@ -6,9 +6,9 @@ export default function Sobre() {
     <div id='sobre-container' >
       <div id='sobre-box-fluid' >
         <div id='sobre-img' >
-          <img src="/photo-1.png" alt="Sobre nós" />
+          <img src="/photo-1.png" alt="Imagem de funcionario para sobre nós" />
         </div>
-        <h2 >Sobre Nós</h2>
+        <h2 >Sobre a Tecno Lab</h2>
         <p >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, culpa corrupti! 
           Doloremque possimus voluptatem recusandae rem voluptas aspernatur porro eos aperiam vel 

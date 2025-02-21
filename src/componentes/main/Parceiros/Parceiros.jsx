@@ -34,14 +34,14 @@ export default function Parceiros() {
 
   return (
     <div id='parceiros'>
-        <h2>Parceiros</h2>
+        <h2>Nossos parceiros</h2>
         <div id='parceiros-logos'>
             <div id='parceiros-logos-holder'>
-              <div id='color-b'><img src="/logo-1.png" alt="" /></div>
-              <div id='color-b'><img src="/logo-2.png" alt="" /></div>
-              <div id='color-b'><img src="/logo-3.png" alt="" /></div>
-              <div id='color-b'><img src="/logo-4.png" alt="" /></div>
-              <div id='color-b'><img src="/logo-5.png" alt="" /></div>
+              <div id='color-b'><img src="/logo-1.png" alt="Icone da empresa Google" /></div>
+              <div id='color-b'><img src="/logo-2.png" alt="Icone da empresa Meta" /></div>
+              <div id='color-b'><img src="/logo-3.png" alt="Icone da empresa SpaceX" /></div>
+              <div id='color-b'><img src="/logo-4.png" alt="Icone da empresa DB" /></div>
+              <div id='color-b'><img src="/logo-5.png" alt="Icone da empresa Microsoft" /></div>
             </div>
         </div>
         <div id='infos' ref={ref}>
