@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" href="/logo-site.png" />
         <link rel="apple-touch-icon" href="/logo-site.png" />
-        <meta name="google-site-verification" content="koCy3m95dbPRjs3rcgIjCtiV2I7YQCPf_0v7t-s-nvg" />
+        <meta name="google-site-verification" content="7BC_x0GEGhIed0WtgfiJhatkL_SktUCfJdjUf7bCfsc" />
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
