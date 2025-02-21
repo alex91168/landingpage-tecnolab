@@ -9,12 +9,12 @@ export const metadata = {
     default: "Tecno Lab - Inovação em Tecnologia",
     template: "%s | Tecno Lab",
   },
-  description: "A Tecno Lab é uma empresa especializada em fornecer soluções tecnológicas inovadoras e personalizadas para negócios de diferentes segmentos. Com uma abordagem focada em desenvolvimento de software, consultoria estratégica e implementação de tecnologias de ponta, nossa missão é impulsionar o crescimento e a transformação digital de nossos clientes. Trabalhamos com ferramentas de última geração, desenvolvendo soluções sob medida que atendem às necessidades específicas de cada empresa, garantindo eficiência, escalabilidade e segurança.",
+  description: "A Tecno Lab oferece soluções tecnológicas inovadoras para empresas, com foco em desenvolvimento de software, consultoria estratégica e implementação de tecnologias avançadas, visando a transformação digital, eficiência e segurança.",
   keywords: "tecnologia, inovação, desenvolvimento de software, soluções digitais",
   authors: [{ name: "Alex Batista", url: "alexbatista-portfolio.vercel.app" }],
   openGraph: {
     title: "Tecno Lab - Inovação em Tecnologia",
-    description: "A Tecno Lab é uma empresa especializada em fornecer soluções tecnológicas inovadoras e personalizadas para negócios de diferentes segmentos. Com uma abordagem focada em desenvolvimento de software, consultoria estratégica e implementação de tecnologias de ponta, nossa missão é impulsionar o crescimento e a transformação digital de nossos clientes. Trabalhamos com ferramentas de última geração, desenvolvendo soluções sob medida que atendem às necessidades específicas de cada empresa, garantindo eficiência, escalabilidade e segurança.",
+    description: "A Tecno Lab oferece soluções tecnológicas inovadoras para empresas, com foco em desenvolvimento de software, consultoria estratégica e implementação de tecnologias avançadas, visando a transformação digital, eficiência e segurança.",
     url: "https://tecno-lab.vercel.app",
     siteName: "Tecno Lab",
   }
